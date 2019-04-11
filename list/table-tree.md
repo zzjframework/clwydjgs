@@ -642,3 +642,15 @@ getTree(data, root, idTxt, pidTxt, pushTxt) {
 
 
 ## 完结 ，撒花
+
+
+
+往期文章：
+
+　　[Visual Studio Code（VS code）你们都在用吗？或许你们需要看一下这篇博文](https://www.cnblogs.com/clwydjgs/p/10078065.html)
+
+　　[你们都在用IntelliJ IDEA吗？或许你们需要看一下这篇博文](https://www.cnblogs.com/clwydjgs/p/9390488.html)
+
+　　[你真的了解博客园的目录么。。](https://www.cnblogs.com/clwydjgs/p/9415632.html)
+
+　　[博客园博客排版（js样式实例）](https://www.cnblogs.com/clwydjgs/p/9291283.html)
