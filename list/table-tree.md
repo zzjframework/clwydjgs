@@ -98,11 +98,13 @@ DOM
 
 ​        sum-text="sum"
 
-​        index-text="#"/>```
+​        index-text="#"/>
+```
 
 数据
+```
 
-​	```props: {
+​	props: {
 
 ​        stripe: false,
 
@@ -466,7 +468,8 @@ DOM
 
 ​        label: 'label'
 
-​      }```
+​      }
+```
 
 
 
@@ -570,7 +573,6 @@ getTree(data, root, idTxt, pidTxt, pushTxt) {
 
 //原始数据：
 
-```
 {"id":1,"pId":0,"name":"父节点1 - 展开","open":true},
   {"id":11,"pId":1,"name":"父节点11 - 折叠"},
   {"id":12,"pId":1,"name":"父节点12 - 折叠"},
@@ -581,7 +583,6 @@ getTree(data, root, idTxt, pidTxt, pushTxt) {
   {"id":23,"pId":2,"name":"父节点23 - 折叠"},
   {"id":3,"pId":0,"name":"父节点3 - 没有子节点"}
 ```
-
 ```
 //处理后的数据
 [
