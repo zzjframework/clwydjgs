@@ -30,7 +30,6 @@ emmmmmmmm。。。。最前面的箭头不见了。。。换了好几个系统�
 
 #### 安装
 
-`
 
 ```
 npm i vue-table-with-tree-grid -S
@@ -42,11 +41,9 @@ Or use yarn:
 yarn add vue-table-with-tree-grid
 ```
 
-`
 
 #### 导入
 
-`
 
 ```
 import Vue from 'vue'
@@ -64,7 +61,6 @@ import ZkTable from 'vue-table-with-tree-grid'
 Vue.component(ZkTable.name, ZkTable)
 ```
 
-`
 
 #### 示例：
 
@@ -72,7 +68,7 @@ https://github.com/MisterTaki/vue-table-with-tree-grid/blob/master/example/Examp
 
 DOM
 
-`<zk-table
+```<zk-table
 
 ​        ref="table"
 
@@ -102,11 +98,11 @@ DOM
 
 ​        sum-text="sum"
 
-​        index-text="#"/>`
+​        index-text="#"/>```
 
 数据
 
-​	`props: {
+​	```props: {
 
 ​        stripe: false,
 
@@ -470,7 +466,7 @@ DOM
 
 ​        label: 'label'
 
-​      }`
+​      }```
 
 
 
@@ -490,7 +486,7 @@ DOM
 
 示例
 
-`
+```
 
 respose.data // 我是树形数据
 
@@ -522,11 +518,11 @@ const readTree = function(node) {
 
 ​      }
 
-`
+```
 
 ## 原始数据转树形数据
 
-`
+```
 
 //data为原始数据，root最大的根节点，idTxt为本身标识, pidTxt为父级标识, pushTxt为子级标识
 
@@ -568,9 +564,9 @@ getTree(data, root, idTxt, pidTxt, pushTxt) {
 
 ​    }
 
-`
+```
 
-`
+```
 
 //原始数据：
 
@@ -586,13 +582,8 @@ getTree(data, root, idTxt, pidTxt, pushTxt) {
   {"id":3,"pId":0,"name":"父节点3 - 没有子节点"}
 ```
 
-`
-
-`
-
-//处理后的数据
-
 ```
+//处理后的数据
 [
   {
     "id": 1,
@@ -648,6 +639,5 @@ getTree(data, root, idTxt, pidTxt, pushTxt) {
 ]
 ```
 
-`
 
 ## 完结 ，撒花
